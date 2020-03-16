@@ -15,6 +15,7 @@ body {
 }
 
 .flex-left {
+  border: 1px solid #fff;
   min-width: 560px;
   width: 70%;
   -webkit-box-pack: center;
@@ -24,6 +25,7 @@ body {
 }
 
 .flex-right {
+  border: 1px solid #fff;
   width: 30%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -38,6 +40,10 @@ header {
   margin-bottom: 10%;
 }
 
+.headers {
+  border: 1px solid #000;
+}
+
 h1 {
   display: inline-block;
   font-size: 2em;
@@ -47,8 +53,8 @@ h1 {
   background: indianred;
   border: 2px solid indianred;
   border-radius: 20px;
-  margin: 3% 0 2% 0;
-  padding: 10px 20px;
+  margin: 3% 10% 2% 0;
+  padding: 10px 5%;
 }
 
 h1:hover {
@@ -156,9 +162,9 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex__column {
@@ -170,7 +176,11 @@ a:hover {
   border: 5px solid #801b1b;
 }
 
-.flex__column img {
-  border: 5px solid #fff;
-  width: 100%;
+.flex__column_1 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.flex__column_2 {
+  padding-right: 5%;
 }

@@ -11,12 +11,14 @@ body {
 
 }
 .flex-left {
+    border: 1px solid #fff;
     min-width: 560px;
     width: 70%;
     justify-content: center;
     text-align: right;
 }
 .flex-right {
+    border: 1px solid #fff;
     width: 30%;
     justify-content: center;
     align-items: center;
@@ -24,6 +26,9 @@ body {
 header {
     height: 90%;
     margin-bottom: 10%;
+}
+.headers {
+    border: 1px solid #000;
 }
 h1 {
     display: inline-block;
@@ -34,8 +39,8 @@ h1 {
     background: indianred;
     border: 2px solid indianred;
     border-radius: 20px;
-    margin: 3% 0 2% 0;
-    padding: 10px 20px;
+    margin: 3% 10% 2% 0;
+    padding: 10px 5%;
 }
 h1:hover {
     color: #e8e76d;
@@ -116,7 +121,7 @@ a:hover {
 .flex__row {
     display: flex;
     width: 100%;
-    align-items: stretch;
+    align-items: center;
 }
 .flex__column {
     width: 20%;
@@ -124,8 +129,18 @@ a:hover {
         border: 5px solid rgb(128, 27, 27);
     }
     border: 5px solid #000;
-    img {
-        border: 5px solid #fff;
-        width:100%;
-    }
+
+}
+.flex__column_1 {
+    align-self: flex-end;
+}
+.flex__column_2 {
+    padding-right: 5%;
+}
+.flex__column_3 {
+    //align-self: stretch;
+}
+.flex__column_4 {
+}
+.flex__column_5 {
 }
