@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e87f3f3-9d73-4f8d-b215-7446e454daf8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WQdIQDF8abqY4vCTyM3YsjRTIf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Freelancer/Fun scss" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e87f3f3-9d73-4f8d-b215-7446e454daf8" name="Default Changelist" comment="" />
+      <created>1579085671456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579085671456</updated>
+      <workItem from="1579085672945" duration="1878000" />
+      <workItem from="1579161653618" duration="19792000" />
+      <workItem from="1579236313069" duration="3316000" />
+      <workItem from="1579333104244" duration="279000" />
+      <workItem from="1581677035428" duration="4435000" />
+      <workItem from="1581744955678" duration="1391000" />
+      <workItem from="1581843436691" duration="1230000" />
+      <workItem from="1581917861882" duration="1226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="146" key="EditFileWatcherDialog" timestamp="1579085859522">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="370" y="146" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1579085859522" />
+    <state x="516" y="122" key="FileChooserDialogImpl" timestamp="1581925837747">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="516" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581925837747" />
+    <state x="237" y="10" key="SettingsEditor" timestamp="1579085862038">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="237" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579085862038" />
+  </component>
+</project>

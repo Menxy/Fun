@@ -1,0 +1,131 @@
+body {
+    min-width: 560px;
+    background: url("../src/dgrey037.jpg");
+    margin: 0 auto;
+    font-family: "Comic Sans MS", sans-serif;
+    overflow: auto;
+}
+.flex {
+    display: flex;
+    width: 100%;
+
+}
+.flex-left {
+    min-width: 560px;
+    width: 70%;
+    justify-content: center;
+    text-align: right;
+}
+.flex-right {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    height: 90%;
+    margin-bottom: 10%;
+}
+h1 {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #d9d68d;
+    background: indianred;
+    border: 2px solid indianred;
+    border-radius: 20px;
+    margin: 3% 0 2% 0;
+    padding: 10px 20px;
+}
+h1:hover {
+    color: #e8e76d;
+    background: #d82e35;
+    border: 2px solid #d82e35;
+    box-shadow: 5px 5px #e8e76d;
+    cursor: pointer;
+    transition-duration: 400ms, 0.4s, 400ms, 1s;
+    transition-property: color, background, border, box-shadow;
+    /*transition-delay: 100ms, 0s, 0s, 0s;*/
+    transition-timing-function: ease;
+}
+h3 {
+    margin: 0 15% 2% 0;
+    color: #b9b9a0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+}
+nav img {
+    height: 100%;
+}
+nav img:hover {
+    position: relative;
+    right: 150px;
+    top: 100px;
+}
+li {
+    margin-left: 5%;
+    display: flex;
+    height: 50px;
+    background: url("../src/icon.png") no-repeat;
+    background-size: 50px;
+    align-items: center;
+}
+a {
+    margin-left: 60px;
+    color: #3cdec9;
+}
+a:visited {
+    color: #3cdec9;
+}
+a:hover {
+    transition-duration: 1s;
+    transition-property: color;
+    font-weight: bold;
+    color: #bdba79;
+}
+.flex-right img {
+    width: 90%;
+}
+.bender {
+    font-size: 2em;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #f6ed85;
+    background: #3cdec9;
+    border: 2px solid #3cdec9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+@media (max-width: 570px){ /*Смартфоны*/
+    .flex-right img {
+        display: none;
+    }
+}
+.wrapper {
+
+}
+.flex {
+    
+}
+.flex__row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.flex__column {
+    width: 20%;
+    &:nth-child(odd) {
+        border: 5px solid rgb(128, 27, 27);
+    }
+    border: 5px solid #000;
+    img {
+        border: 5px solid #fff;
+        width:100%;
+    }
+}
