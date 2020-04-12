@@ -4,22 +4,49 @@
     <meta charset="UTF-8">
     <title>Fun</title>
     <link rel="shortcut icon" href="src/icon.png">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script> <!--Slick-slider-->
+    <script src="js/slick.min.js"></script><!--Slick-slider-->
+    <script src="js/script.js"></script><!--Slick-slider-->
 </head>
 <body>
-    <header class="flex">
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <img src="src/sushi.ico" alt="S"></a>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li><a href="#" class="header__link">Главная</a></li>
+                                <li><a href="#" class="header__link">Уроки</a></li>
+                                <li><a href="#" class="header__link">Шпаргалки</a></li>
+                                <li><a href="#" class="header__link">Полезное</a></li>
+                                <li><a href="#" class="header__link">О канале</a></li>
+                                <li><a href="#" class="header__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
         <div class="flex-left">
             <div class="headers">
                 <h1>Это мой лунапарк!</h1>
                 <h3>Скафандры в подсобке по талонам..</h3>
             </div>
-            <nav>
+            <nav  class="old_nav">
                 <ul>
-                    <li><a href="#">Мостик</a></li>
-                    <li><a href="#">Палуба</a></li>
-                    <li><a href="#">Камбуз</a></li>
-                    <li><a href="#">Трюм</a></li>
+                    <li class="old_li"><a class="old_a" href="#">Мостик</a></li>
+                    <li class="old_li"><a class="old_a" href="#">Палуба</a></li>
+                    <li class="old_li"><a class="old_a" href="#">Камбуз</a></li>
+                    <li class="old_li"><a class="old_a" href="#">Трюм</a></li>
                 </ul>
                 <img src="src/moon_PNG31.png" alt="Луна">
             </nav>
@@ -27,7 +54,7 @@
         <div class="flex-right">
             <img class="item" src="src/futurama_PNG104.png" alt="Привет">
         </div>
-    </header>
+    </div>
     <main>
         <div class="flex bender">
             Заходи, дружище!
@@ -44,6 +71,12 @@
             </div>
         </div>
     </main>
-
+    <div class="boot">
+        <div class="block">
+            <a href="#" class="linker">
+                <img src="src/bender_gold.png" alt="">
+            </a>
+        </div>
+    </div>
 </body>
 </html>
